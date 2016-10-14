@@ -77,7 +77,7 @@ def print_inventory_items(items):
         items_list = []
         for item in items:
             items_list.append(item["name"])
-        print('You have', ", ".join(items_list), ".")
+        print('You have', ", ".join(items_list) + ".")
 
 
 def print_room(room):
